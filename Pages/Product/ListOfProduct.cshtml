@@ -1,0 +1,49 @@
+﻿@page
+@model RazorPagesTutorial.Pages.Product.ListOfProductModel
+@{
+}
+<partial name="_Message"></partial>
+<h1>Products</h1>
+<a asp-page="Create" class="btn btn-dark my-2">Add More Products</a>
+
+<div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                @* <th>Profile</th> *@
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var product in Model.ProductList)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Description</td>
+                   @*  <td>
+                        @if (!string.IsNullOrEmpty(product.ProfilePicture))
+                        {
+                            <img style="width: 120px; height: 100px;" src="/Uploads/@product.ProfilePicture" alt="profile" />
+                        }
+                        else
+                        {
+                            <span>Na</span>
+                        }
+                    </td> *@
+                    <td>
+                        <div style="display: flex; align-items: center;">
+                            <a asp-page="Edit" asp-route-id="@product.Id" class="btn btn-success">Edit</a>
+                            <form asp-action="ListOfProduct" style="margin-left: 10px;">
+                                <button onclick="return confirm('Are you sure??')" asp-page-handler="delete" asp-route-id="@product.Id" class="btn btn-danger">Delete</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>

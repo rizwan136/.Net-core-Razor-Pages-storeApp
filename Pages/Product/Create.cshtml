@@ -1,0 +1,33 @@
+﻿@page
+@model RazorPagesTutorial.Pages.Product.CreateModel
+@{
+}
+<partial name="_Message"></partial>
+
+<div>
+    <h3>Add Product</h3>
+    <form asp-action="Create" enctype="multipart/form-data">
+        <div class="from-group">
+            <label asp-for="Product.Name"></label>
+            <input asp-for="Product.Name" class="form-control" />
+            <span class="text-danger" asp-validation-for="Product.Name"></span>
+        </div>
+
+        <div class="from-group">
+            <label asp-for="Product.Description"></label>
+            <input asp-for="Product.Description" class="form-control" />
+            <span class="text-danger" asp-validation-for="Product.Description"></span>
+        </div>
+
+       @*  <div class="from-group">
+            <label asp-for="Product.ImageFile"></label>
+            <input type="file" asp-for="Product.ImageFile" class="form-control" />
+            <span class="text-danger" asp-validation-for="Product.ImageFile"></span>
+        </div> *@
+
+        <div class="my-2">
+            <button class="btn btn-primary">Save</button>
+            <a asp-page="ListOfProduct" class="btn btn-dark">All Product</a>
+        </div>
+    </form>
+</div>

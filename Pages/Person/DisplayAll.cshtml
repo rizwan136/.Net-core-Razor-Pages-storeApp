@@ -1,0 +1,56 @@
+﻿@page
+@model RazorPagesTutorial.Pages.Person.DisplayAllModel
+@{
+
+}
+<partial name="_Message"></partial>
+<h1>People</h1>
+<a asp-page="Create" class="btn btn-dark my-2">Add More Person</a>
+
+<div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Profile</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var person in Model.Pepole)
+            {
+                <tr>
+                    <td>@person.Name</td>
+                    <td>@person.Email</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(person.ProfilePicture))
+                        {
+                            <img style="width: 120px; height: 100px;" src="/Uploads/@person.ProfilePicture" alt="profile" />
+                        }
+                        else
+                        {
+                            <span>Na</span>
+                        }
+                    </td>
+                    @*  <td>
+                <a asp-page="Edit" asp-route-id="@person.Id" class="btn btn-success">Edit</a>
+                <form asp-action="Displayall">
+                <button onclick="return confirm('Are you sure??')" asp-page-handler="delete" asp-route-id="@person.Id" class="btn btn-danger">Delete</button>
+                </form>
+                </td> *@
+                    <td>
+                        <div style="display: flex; align-items: center;">
+                            <a asp-page="Edit" asp-route-id="@person.Id" class="btn btn-success">Edit</a>
+                            <form asp-action="Displayall" style="margin-left: 10px;">
+                                <button onclick="return confirm('Are you sure??')" asp-page-handler="delete" asp-route-id="@person.Id" class="btn btn-danger">Delete</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>

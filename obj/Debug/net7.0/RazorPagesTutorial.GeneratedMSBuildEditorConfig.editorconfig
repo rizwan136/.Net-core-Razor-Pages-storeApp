@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RazorPagesTutorial
+build_property.RootNamespace = RazorPagesTutorial
+build_property.ProjectDir = F:\Visiomate\C# and .Net\.Net\RazorPagesTutorial\RazorPagesTutorial\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\Visiomate\C# and .Net\.Net\RazorPagesTutorial\RazorPagesTutorial
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Person/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Person/DisplayAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uXERpc3BsYXlBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Person/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Product/ListOfProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxMaXN0T2ZQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Shared/_Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Visiomate/C\# and .Net/.Net/RazorPagesTutorial/RazorPagesTutorial/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

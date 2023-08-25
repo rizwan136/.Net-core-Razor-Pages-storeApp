@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Visiomate\\C# and .Net\\.Net\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\Uploads\\2779c546-c7d8-4460-81bd-ec5781235408.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\2779c546-c7d8-4460-81bd-ec5781235408.jpg"
+    },
+    {
+      "Id": "F:\\Visiomate\\C# and .Net\\.Net\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\Uploads\\6aefebb7-a60a-467f-b6de-50335624a43e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\6aefebb7-a60a-467f-b6de-50335624a43e.jpg"
+    },
+    {
+      "Id": "F:\\Visiomate\\C# and .Net\\.Net\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\Uploads\\c8df9968-d080-427b-ba4b-61cf81823817.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\c8df9968-d080-427b-ba4b-61cf81823817.jpg"
+    },
+    {
+      "Id": "F:\\Visiomate\\C# and .Net\\.Net\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\Uploads\\dc04ed89-ed51-4c62-ae64-2119e310d1b1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\dc04ed89-ed51-4c62-ae64-2119e310d1b1.jpg"
+    },
+    {
+      "Id": "F:\\Visiomate\\C# and .Net\\.Net\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Visiomate\\C# and .Net\\.Net\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RazorPagesTutorial.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RazorPagesTutorial.props",
+      "PackagePath": "build\\RazorPagesTutorial.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RazorPagesTutorial.props",
+      "PackagePath": "buildMultiTargeting\\RazorPagesTutorial.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RazorPagesTutorial.props",
+      "PackagePath": "buildTransitive\\RazorPagesTutorial.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

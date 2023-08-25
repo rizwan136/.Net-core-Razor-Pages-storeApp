@@ -1,0 +1,41 @@
+﻿@page
+@model RazorPagesTutorial.Pages.Product.EditModel
+@{
+}
+<partial name="_Message"></partial>
+
+<div>
+    <h3>Edit Product</h3>
+    <form asp-action="Edit" enctype="multipart/form-data">
+
+        <input type="hidden" asp-for="ProductDetail.Id" class="form-control" />
+        @* <input type="hidden" asp-for="ProductDetail.ProfilePicture" class="form-control" /> *@
+
+        <div class="from-group">
+            <label asp-for="ProductDetail.Name"></label>
+            <input asp-for="ProductDetail.Name" class="form-control" />
+            <span class="text-danger" asp-validation-for="ProductDetail.Name"></span>
+        </div>
+
+        <div class="from-group">
+            <label asp-for="ProductDetail.Description"></label>
+            <input asp-for="ProductDetail.Description" class="form-control" />
+            <span class="text-danger" asp-validation-for="ProductDetail.Description"></span>
+        </div>
+
+      @*   <div class="from-group">
+            <label asp-for="ProductDetail.ImageFile"></label>
+            @if (!string.IsNullOrEmpty(Model.ProductDetail.ProfilePicture))
+            {
+                <img style="width: 120px; height: 100px;" src="/Uploads/@Model.ProductDetail.ProfilePicture" alt="profile" />
+            }
+            <input type="file" asp-for="ProductDetail.ImageFile" class="form-control" />
+            <span class="text-danger" asp-validation-for="ProductDetail.ImageFile"></span>
+        </div> *@
+
+        <div class="my-2">
+            <button class="btn btn-primary">Update</button>
+            <a asp-page="ListOfProduct" class="btn btn-dark">All Products</a>
+        </div>
+    </form>
+</div>
